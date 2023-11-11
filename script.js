@@ -32,3 +32,43 @@ let cuadrado = (num) => num * num
 // SOLUCION 3er Ejercicio 
 
 let decirHola = () => console.log("Hola!")
+
+// 4rto Ejercicio
+
+/*function saludar (nombre) {
+ if (nombre === undefined) {
+   return "hola anónimo";
+ } else {
+   return "hola " + nombre;
+ }
+} */
+
+// SOLUCION 4rto Ejercicio 
+
+let saludar = (nombre) => {
+    if (nombre=== undefined) {
+        return "Hola anónimo";
+    } else {
+        return "Hola" + nombre
+    }
+}
+
+// 5nto Ejercicio 
+
+/* let nombreCompleto = (nombre, apellido) =>
+  "¡Hola, " + nombre + " " + apellido + "!";
+let exclamar = str => {
+ `str`
+}
+let mayusculas = (str) => return str.toUpperCase()
+let minusculas = (str) => str.toLowerCase() */
+
+// SOLUCION 5nto Ejercicio 
+
+let nombreCompleto = (nombre, apellido) => nombre + " " + apellido
+
+let exclamar = str => "¡"+ str + "!"
+
+let mayusculas = strDos => strDos.toUpperCase()
+
+let minusculas  = strTres => strTres.toLowerCase()
